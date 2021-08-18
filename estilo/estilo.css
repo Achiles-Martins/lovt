@@ -11,6 +11,31 @@ body {
     padding: 0; 
 }
 
+.dark-theme {
+    background-color: #444;
+    color: #fff;
+}
+
+.dark-theme h1, 
+.dark-theme h2 {
+    color: #fff;
+}
+
+.dark-theme section.destaques article {
+    background-color: #555555;
+}
+
+.dark-theme form input,
+.dark-theme form textarea {
+    background-color: #666;
+    color: #fff;
+    border: none;
+}
+
+.dark-theme iframe {
+    filter: invert(90%);
+}
+
 .container {
     width: 1200px;
     max-width: 100%;
